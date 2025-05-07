@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to AI Insights</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #a18cd1, #fbc2eb); /* Soft purple to pink gradient */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333; /* Dark text for better readability */
+            text-align: center;
+        }
+
+        .welcome-container {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for content */
+            padding: 70px; /* Increased padding for spaciousness */
+            border-radius: 16px; /* More pronounced rounded corners */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Softer, wider shadow */
+            text-align: center;
+            backdrop-filter: blur(5px); /* Subtle blur for background */
+            border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+        }
+
+        h1 {
+            color: #512da8; /* Deep purple heading */
+            font-size: 3em; /* Even larger heading */
+            margin-bottom: 25px;
+            font-weight: bold;
+            letter-spacing: 1px; /* Slight letter spacing for elegance */
+        }
+
+        p {
+            color: #666; /* Medium gray paragraph text */
+            font-size: 1.2em;
+            margin-bottom: 50px; /* More space below paragraph */
+            line-height: 1.8; /* Improved line height for readability */
+        }
+
+        button {
+            background-color: #512da8; /* Deep purple button */
+            color: #fff; /* White button text */
+            padding: 18px 36px; /* Larger button */
+            border: none;
+            border-radius: 10px; /* Nicely rounded button */
+            cursor: pointer;
+            font-size: 1.15em;
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform for a subtle effect */
+            font-weight: 600; /* Semi-bold button text */
+        }
+
+        button:hover {
+            background-color: #7b1fa2; /* Slightly lighter purple on hover */
+            transform: scale(1.05); /* Subtle scale up on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <h1>AI Insights Hub</h1>
+        <p>Embark on a journey to explore the transformative power of Artificial Intelligence and its profound impact on our world.</p>
+        <button id="enter-blog">Discover AI</button>
+    </div>
+
+    <script>
+        document.getElementById('enter-blog').addEventListener('click', function() {
+            window.location.href = 'blog.html';
+        });
+    </script>
+</body>
+</html>
